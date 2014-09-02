@@ -2,6 +2,15 @@
     "name": "bluemix_cloudant",
     "version": "0.0.1",
     "description": "A simple wrapper around Nano to use with Cloudant on IBM BlueMix",
+    "main": "bluemix_cloudant.js",
+    "repository": "https://github.com/glynnbird/bluemix_cloudant",
+    "keywords": [
+      "cloudant",
+      "couchdb",
+      "bluemix"
+      ],
+    "author": "Glynn Bird",
+    "licence": "BSD",
     "dependencies": {
         "nano": "5.10.0"
     },
