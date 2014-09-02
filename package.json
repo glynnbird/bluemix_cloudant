@@ -1,0 +1,9 @@
+{
+    "name": "bluemix_cloudant",
+    "version": "0.0.1",
+    "description": "A simple wrapper around Nano to use with Cloudant on IBM BlueMix",
+    "dependencies": {
+        "nano": "5.10.0"
+    },
+    "repository": {}
+}
