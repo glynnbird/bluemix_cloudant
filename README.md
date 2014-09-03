@@ -12,7 +12,7 @@ Add "bluemix_cloudant" in your package.json's dependencies object:
 
 ```
 dependencies: {
-  "bluemix_cloudant": ""
+  "bluemixcloudant": ""
 }
 ```
 and run
@@ -23,7 +23,7 @@ npm install
 
 You can then use bluemix_cloudant in your code:
 ```
-var cloudant = require('bluemix_cloudant');
+var cloudant = require('bluemixcloudant');
 cloudant.get('rabbit', { revs_info: true }, function(err, body) {
   if (!err)
     console.log(body);
