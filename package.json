@@ -1,6 +1,6 @@
 {
     "name": "bluemixcloudant",
-    "version": "0.0.3",
+    "version": "0.1.0",
     "description": "A simple wrapper around Nano to use with Cloudant on IBM BlueMix",
     "main": "bluemix_cloudant.js",
     "repository": "https://github.com/glynnbird/bluemix_cloudant",
@@ -12,6 +12,6 @@
     "author": "Glynn Bird",
     "licence": "BSD",
     "dependencies": {
-        "nano": "5.10.0"
+        "cloudant": "1.1.0"
     }
 }
